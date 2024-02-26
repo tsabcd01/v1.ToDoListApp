@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List Web App</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+
+        <p><b>Instructions on how to use this web app:</b><br>
+            <br>
+
+            1. This is a simple " To-Do-List Web App. "<br>
+            2. Add as many tasks as you need.<br>
+            3. Mark tasks as completed by checking them.<br>
+            4. Delete tasks if you do not need them.<br>
+            5. Has built-in memory. Add any tasks and view them forever until deleted.<br>
+            <br>
+        </p>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To-do-List Web App : <img src="images/icon.jpg"> </h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your text">
+                <button onclick="addTask()">Add</button>
+
+            </div>
+            <ul id="list-container">
+                <!-- <li class="checked">Task 1</li>  
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+            </ul>
+        </div>
+    </div>
+   
+<script src="script.js"></script>
+</body>
+</html>
